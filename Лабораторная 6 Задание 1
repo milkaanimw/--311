@@ -1,0 +1,7 @@
+def fahrenheit_to_kelvin(fahrenheit):
+  celsius=(fahrenheit-32)*5/9
+  kelvin=celsius+273.15
+  return kelvin
+fahrenheit_temp=float(input("Введите температуру в Фаренгейтах: "))
+kelvin_temp=fahrenheit_to_kelvin(fahrenheit_temp)
+print(f"Температура в Кельвинах: {kelvin_temp: 2f}")
